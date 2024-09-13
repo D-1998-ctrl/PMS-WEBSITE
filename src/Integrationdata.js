@@ -15,16 +15,15 @@ import MarkEmailReadRoundedIcon from '@mui/icons-material/MarkEmailReadRounded';
 import CropSquareRoundedIcon from '@mui/icons-material/CropSquareRounded';
 import NoteAddRoundedIcon from '@mui/icons-material/NoteAddRounded';
 
-const cardData = [
+const IntegrationData = [
   {
     icon: <RemoveRedEyeIcon />,
     title: 'Overview',
-    description: 'This is a description ',
-    
+    description: 'Connect TaxDome with tax programs, payment providers and more! '
   },
   {
     icon: <AddCardIcon />,
-    title: 'Time & billing',
+    title: 'Schedulers',
     description: 'This is a description '
   },
   {
@@ -73,9 +72,6 @@ const cardData = [
   },
 
 
-
-
-
   {
     icon: <RemoveRedEyeIcon />,
     title: 'Document management',
@@ -103,34 +99,7 @@ const cardData = [
   },
 
 
-
-
-  {
-    icon: <MarkEmailReadRoundedIcon/>,
-    title: 'Email-sync',
-    description: 'This is a description for the Desktop app. It provides details about Desktop app-related content.'
-  },
-  {
-    icon: <CropSquareRoundedIcon/>,
-    title: 'Apps',
-    description: 'This is a description for the Team management card. It provides details about Team management-related content.'
-  },
-  {
-    icon: <Groups2Icon/>,
-    title: 'Firm dashboard',
-    description: 'This is a description for the Client portal card. It provides details about Client portal-related content.'
-  },
-  {
-    icon: <FolderIcon/>,
-    title: 'Wiki pages',
-    description: 'This is a description for the CRM card. It provides details about CRM-related content.'
-  },
-  {
-    icon: <NoteAddRoundedIcon/>,
-    title: 'Audit trail',
-    description: 'This is a description for the Website & branding card. It provides details about Website & branding-related content.'
-  },
   
 ];
 
-export default cardData;
+export default IntegrationData;
